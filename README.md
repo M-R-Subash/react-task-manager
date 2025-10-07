@@ -1,4 +1,3 @@
-```markdown
 # 🚀 TaskFlow Dashboard
 
 A modern, responsive task management application with beautiful analytics and smooth animations. Built with React and Tailwind CSS.
@@ -36,19 +35,18 @@ A modern, responsive task management application with beautiful analytics and sm
 
 ## 📁 Project Structure
 
-```
 react-task-manager/
 ├── public/
-│   ├── index.html
-│   └── vite.svg
+│ ├── index.html
+│ └── vite.svg
 ├── src/
-│   ├── App.jsx          # Main application component
-│   ├── main.jsx         # React entry point
-│   └── index.css        # Global styles
-├── package.json         # Dependencies and scripts
-├── vite.config.js       # Vite configuration
-└── README.md           # Project documentation
-```
+│ ├── App.jsx # Main application component
+│ ├── main.jsx # React entry point
+│ └── index.css # Global styles
+├── package.json # Dependencies and scripts
+├── vite.config.js #
+
+
 
 ## 🚀 Getting Started
 
@@ -60,72 +58,56 @@ react-task-manager/
 ### Installation
 
 1. **Clone the repository**
-   ```bash
-   git clone https://github.com/M-R-Subash/react-task-manager.git
-   cd react-task-manager
-   ```
+```bash
+git clone https://github.com/M-R-Subash/react-task-manager.git
+cd react-task-manager
+npm install
+npm run dev
+Open your browser
+Navigate to http://localhost:5173
+```
+Available Scripts
+Command	       Description
+npm run dev	    Start development server
+npm run build	 Create production build
+npm run preview Preview production build
+npm run deploy	 Deploy to GitHub Pages
 
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
+🎯 Key Components
 
-3. **Start development server**
-   ```bash
-   npm run dev
-   ```
+Pie Chart Analytics
+Real-time completion percentage
+Visual progress tracking
+Color-coded segments (green = completed, orange = pending)
 
-4. **Open your browser**
-   Navigate to `http://localhost:5173`
+Task Management
 
-### Available Scripts
+Add new tasks with loading states
+Edit tasks inline
+Toggle completion status
+Filter by status (all/pending/completed)
 
-| Command | Description |
-|---------|-------------|
-| `npm run dev` | Start development server |
-| `npm run build` | Create production build |
-| `npm run preview` | Preview production build |
-| `npm run deploy` | Deploy to GitHub Pages |
+UI/UX Features
 
-## 📸 Screenshots
+Welcome animation on first load
+Success notifications
+Smooth hover effects
+Loading spinners for async operations
 
-### Dashboard View
-![Dashboard](https://via.placeholder.com/800x400/1f2937/ffffff?text=TaskFlow+Dashboard+with+Analytics)
+🔧 Configuration
+```
+Vite Config
+javascript
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
-### Mobile View  
-![Mobile](https://via.placeholder.com/400x700/1f2937/ffffff?text=Mobile+Responsive+Design)
-
-## 🎯 Key Components
-
-### Pie Chart Analytics
-- Real-time completion percentage
-- Visual progress tracking
-- Color-coded segments (green = completed, orange = pending)
-
-### Task Management
-- Add new tasks with loading states
-- Edit tasks inline
-- Toggle completion status
-- Filter by status (all/pending/completed)
-
-### UI/UX Features
-- Welcome animation on first load
-- Success notifications
-- Smooth hover effects
-- Loading spinners for async operations
-
-## 🔧 Configuration
-
-### Vite Config
-```js
-// vite.config.js
 export default defineConfig({
   plugins: [react()],
-  base: '/react-task-manager/', // For GitHub Pages
+  base: '/react-task-manager/',
 })
 ```
 
-### Package.json Scripts
+Package.json Scripts
 ```json
 {
   "scripts": {
@@ -138,65 +120,46 @@ export default defineConfig({
 }
 ```
 
-## 🌐 Deployment
+🌐 Deployment
 
 This project is automatically deployed to GitHub Pages:
+Manual Deployment
 
-1. **Manual Deployment**
-   ```bash
-   npm run deploy
-   ```
+npm run deploy
+Automatic Deployment
+Pushes to the main branch trigger GitHub Actions
+Built files are deployed to the gh-pages branch
 
-2. **Automatic Deployment**
-   - Pushes to the `main` branch trigger GitHub Actions
-   - Built files are deployed to the `gh-pages` branch
-
-## 🤝 Contributing
+🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
+Fork the project
+Create your feature branch (git checkout -b feature/AmazingFeature)
+Commit your changes (git commit -m 'Add some AmazingFeature')
+Push to the branch (git push origin feature/AmazingFeature)
+Open a Pull Request
 
-1. Fork the project
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+📝 License
 
-## 📝 License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+👨‍💻 Author
 
-## 👨‍💻 Author
+M R Subash
+GitHub: @M-R-Subash
+Project: React Task Manager
 
-**M R Subash**
-- GitHub: [@M-R-Subash](https://github.com/M-R-Subash)
-- Project: [React Task Manager](https://github.com/M-R-Subash/react-task-manager)
+🙏 Acknowledgments
 
-## 🙏 Acknowledgments
+React - UI framework
+Tailwind CSS - Styling
+SweetAlert2 - Beautiful alerts
+Vite - Build tool
 
-- [React](https://reactjs.org/) - UI framework
-- [Tailwind CSS](https://tailwindcss.com/) - Styling
-- [SweetAlert2](https://sweetalert2.github.io/) - Beautiful alerts
-- [Vite](https://vitejs.dev/) - Build tool
-- [GitHub Pages](https://pages.github.com/) - Hosting
-
----
-
+GitHub Pages - Hosting
+```
 <div align="center">
-
-### ⭐ Don't forget to star this repository if you found it helpful!
-
+⭐ Don't forget to star this repository if you found it helpful!
 </div>
 ```
 
-This README includes:
-
-- **Badges** for all technologies used
-- **Live demo link** 
-- **Clear project structure**
-- **Step-by-step installation**
-- **Visual screenshots** (placeholder links)
-- **Technical configuration details**
-- **Deployment instructions**
-- **Professional formatting**
-
-You can copy this directly into your `README.md` file in the project root!
