@@ -120,30 +120,47 @@ Package.json Scripts
 }
 ```
 
+
 🌐 Deployment
 
+
 This project is automatically deployed to GitHub Pages:
+
 Manual Deployment
 
 npm run deploy
+
 Automatic Deployment
+
 Pushes to the main branch trigger GitHub Actions
+
 Built files are deployed to the gh-pages branch
+
 
 🤝 Contributing
 
+
 Contributions are welcome! Please feel free to submit a Pull Request.
+
 Fork the project
+
 Create your feature branch (git checkout -b feature/AmazingFeature)
+
 Commit your changes (git commit -m 'Add some AmazingFeature')
+
 Push to the branch (git push origin feature/AmazingFeature)
+
 Open a Pull Request
+
 
 📝 License
 
+
 This project is licensed under the MIT License - see the LICENSE file for details.
 
+
 👨‍💻 Author
+
 
 M R Subash
 
@@ -152,6 +169,7 @@ GitHub: @M-R-Subash
 Project: React Task Manager
 
 🙏 Acknowledgments
+
 
 React - UI framework
 
