@@ -146,14 +146,19 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 👨‍💻 Author
 
 M R Subash
+
 GitHub: @M-R-Subash
+
 Project: React Task Manager
 
 🙏 Acknowledgments
 
 React - UI framework
+
 Tailwind CSS - Styling
+
 SweetAlert2 - Beautiful alerts
+
 Vite - Build tool
 
 GitHub Pages - Hosting
