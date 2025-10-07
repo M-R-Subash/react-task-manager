@@ -66,7 +66,7 @@ npm run dev
 Open your browser
 Navigate to http://localhost:5173
 ```
-**Available Scripts**
+## Available Scripts
 
 Command	       Description
 npm run dev	    Start development server
@@ -74,7 +74,7 @@ npm run build	 Create production build
 npm run preview Preview production build
 npm run deploy	 Deploy to GitHub Pages
 
-**🎯 Key Components**
+##🎯 Key Components
 
 Pie Chart Analytics
 
@@ -84,7 +84,7 @@ Visual progress tracking
 
 Color-coded segments (green = completed, orange = pending)
 
-**Task Management**
+## Task Management
 
 Add new tasks with loading states
 
@@ -94,7 +94,7 @@ Toggle completion status
 
 Filter by status (all/pending/completed)
 
-**UI/UX Features**
+## UI/UX Features
 
 Welcome animation on first load
 
@@ -104,7 +104,7 @@ Smooth hover effects
 
 Loading spinners for async operations
 
-**🔧 Configuration**
+## 🔧 Configuration
 ```
 Vite Config
 javascript
@@ -117,7 +117,7 @@ export default defineConfig({
 })
 ```
 
-**Package.json Scripts**
+## Package.json Scripts
 
 ```json
 {
@@ -132,7 +132,7 @@ export default defineConfig({
 ```
 
 
-**🌐 Deployment**
+## 🌐 Deployment
 
 
 This project is automatically deployed to GitHub Pages:
@@ -148,8 +148,7 @@ Pushes to the main branch trigger GitHub Actions
 Built files are deployed to the gh-pages branch
 
 
-**🤝 Contributing
-**
+## 🤝 Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -164,13 +163,13 @@ Push to the branch (git push origin feature/AmazingFeature)
 Open a Pull Request
 
 
-**📝 License**
+## 📝 License
 
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 
-**👨‍💻 Author**
+## 👨‍💻 Author
 
 
 M R Subash
@@ -180,7 +179,7 @@ GitHub: @M-R-Subash
 Project: React Task Manager
 
 
-**🙏 Acknowledgments**
+## 🙏 Acknowledgments
 
 
 React - UI framework
